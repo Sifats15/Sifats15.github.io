@@ -33,3 +33,104 @@ a {
 .gym-box p {
   margin: 6px 0;
 }
+/* Gym Page Theme */
+.gym-body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gym-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.gym-subtitle {
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+/* Cards Layout */
+.gym-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Card Design */
+.gym-card {
+  background: white;
+  color: #333;
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gym-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.gym-card h2 {
+  color: #e63946;
+}
+
+.gym-card h3 {
+  margin: 15px 0;
+}
+
+/* List */
+.gym-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gym-card ul li {
+  margin: 8px 0;
+}
+
+/* Button */
+.gym-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #e63946;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.gym-card button:hover {
+  background: #c1121f;
+}
+
+/* Popular Badge */
+.popular {
+  border: 3px solid #e63946;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #e63946;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
