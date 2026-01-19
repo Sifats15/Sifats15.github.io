@@ -17,3 +17,19 @@ a {
   color: blue;
   font-weight: bold;
 }
+.gym-box {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.gym-box h2 {
+  color: #e63946;
+}
+
+.gym-box p {
+  margin: 6px 0;
+}
